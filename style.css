@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.479);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main table {
+  height: 40vh;
+  width: 40%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.main table tr {
+  width: 50%;
+  height: 30%;
+  text-align: center;
+}
+
+.main table tr td {
+  border: 1px solid black;
+}
+
+.main table tr td input{
+    height: 40px;
+    width: 60%;
+}
+
+.main table tr td button{
+    height: 40px;
+    width: 40%;
+}
